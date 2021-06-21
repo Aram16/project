@@ -26,11 +26,11 @@ const Navbar = () => {
                 </div>
 
                 <div className="navigation">
-                        <Link to="/en/aboutUs" className="Link"><a href="">About</a></Link>
-                        <Link to="/en/allNews" className="Link"><a href="">News</a></Link>
-                        <Link to="/en/events" className="Link"><a href="">Events</a></Link>
-                        <Link to="/en/courses" className="Link"><a href="">Courses</a></Link>
-                        <Link to="/en/contact" className="Link"><a href="">Contact</a></Link>
+                        <Link to="/en/aboutUs" className="Link"><a>About</a></Link>
+                        <Link to="/en/allNews" className="Link"><a>News</a></Link>
+                        <Link to="/en/events" className="Link"><a>Events</a></Link>
+                        <Link to="/en/courses" className="Link"><a>Courses</a></Link>
+                        <Link to="/en/contact" className="Link"><a>Contact</a></Link>
                 </div>
             </div>
         </nav>

@@ -26,11 +26,11 @@ const Navbar = () => {
                 </div>
 
                 <div className="navigation">
-                        <Link to="/am/aboutUs" className="Link"><a href="">Մեր մասին</a></Link>
-                        <Link to="/am/allNews" className="Link"><a href="">Նորություններ</a></Link>
-                        <Link to="/am/events" className="Link"><a href="">Իրադարձություններ</a></Link>
-                        <Link to="/am/courses" className="Link"><a href="">Դասընթացներ</a></Link>
-                        <Link to="/am/contact" className="Link"><a href="">Կապ</a></Link>
+                        <Link to="/am/aboutUs" className="Link"><a>Մեր մասին</a></Link>
+                        <Link to="/am/allNews" className="Link"><a>Նորություններ</a></Link>
+                        <Link to="/am/events" className="Link"><a>Իրադարձություններ</a></Link>
+                        <Link to="/am/courses" className="Link"><a>Դասընթացներ</a></Link>
+                        <Link to="/am/contact" className="Link"><a>Կապ</a></Link>
                 </div>
             </div>
         </nav>

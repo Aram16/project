@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CourseCard from '../../components/courses/courseCard';
-import Footer from '../../components/footer';
 import './index.css'
 import CoursesNavbar from './welcomeNavbar/welcomNavbar';
 

@@ -11,9 +11,8 @@ import NewsPage from '../news/newsPage';
 
 
 const WelcomePage = () => {
-    return(
-        <div className="welcome-div">
 
+    return (
         <div id="div">
             <nav>
             <div className="navv">
@@ -59,7 +58,6 @@ const WelcomePage = () => {
             <CoursesPage />
             {/* NEWS PAGE */}
             <NewsPage />
-        </div>
         </div>
     )
 }

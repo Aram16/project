@@ -1,13 +1,13 @@
-import svarka from '../../assets/logo/svarka.png'
-import mard from '../../assets/logo/mard.png'
-import mardd from '../../assets/logo/mardd.png'
-import armatura from '../../assets/logo/armatura.png'
-import shenqer from '../../assets/logo/shenqer.png'
-import sxoc from '../../assets/logo/sxoc.png'
-import rectan from '../../assets/logo/rectangleeee.png'
-import recta from '../../assets/logo/rectangleee.png'
-import rect from '../../assets/logo/rectanglee.png'
-import rec from '../../assets/logo/rectangle.png'
+import rectangle5 from '../../assets/logo/rectangle-5.png'
+import rectangle12 from '../../assets/logo/rectangle-12.png'
+import rectangle16 from '../../assets/logo/rectangle-16.png'
+import rectangle13 from '../../assets/logo/rectangle-13.png'
+import rectangle14 from '../../assets/logo/rectangle-14.png'
+import rectangle15 from '../../assets/logo/rectangle-15.png'
+import rectangle20 from '../../assets/logo/rectangle-20.png'
+import rectangle19 from '../../assets/logo/rectangle-19.png'
+import rectangle18 from '../../assets/logo/rectangle-18.png'
+import rectangle17 from '../../assets/logo/rectangle-17.png'
 
 const Image = () => {
     return (
@@ -15,36 +15,36 @@ const Image = () => {
             <div className="image">
                 <div className="displayy-grid">
                     <div>
-                        <img src={svarka}/>
+                        <img src={rectangle5} alt="rectangle5"/>
                     </div>
                     <div>
-                        <img src={mard} />
+                        <img src={rectangle12} alt="rectangle12"/>
                     </div>
                     <div>
-                        <img src={armatura} />
+                        <img src={rectangle13} alt="rectangle13"/>
                     </div>
                     <div>
-                        <img src={shenqer}/>
+                        <img src={rectangle14} alt="rectangle14"/>
                     </div>
                     <div>
-                        <img src={sxoc}/>
+                        <img src={rectangle15} alt="rectangle15"/>
                     </div>
                 </div>
                 <div className="displayy-grid">
                     <div>
-                        <img src={rectan}/>
+                        <img src={rectangle20} alt="rectangle20"/>
                     </div>
                     <div>
-                        <img src={recta} />
+                        <img src={rectangle19} alt="rectangle19"/>
                     </div>
                     <div>
-                        <img src={rect} />
+                        <img src={rectangle18} alt="rectangle18"/>
                     </div>
                     <div>
-                        <img src={rec}/>
+                        <img src={rectangle17} alt="rectangle17"/>
                     </div>
                     <div>
-                      <img src={mardd} className="mardd"/>
+                      <img src={rectangle16} className="mardd" alt="rectangle16"/>
                     </div>
                       
                 </div>

@@ -19,7 +19,7 @@ const WelcomePage = () => {
                 <div className="nav-header">
                     <div className="nav-title">
                         <a>
-                            <img src={logo}/>
+                            <img src={logo} alt="ket"/>
                         </a>
                     </div>
                 </div>
@@ -43,19 +43,16 @@ const WelcomePage = () => {
             </div>
         </nav>
             <div className="ket">
-                <img src={big} />
+                <img src={big} alt="ket"/>
             </div>
   
-            <img src={logo} className="workk"/>
+            <img src={logo} className="workk" alt="ket"/>
 
             <div className="work">
                 <p>ՄՏԱԾԻՐ, ՍՏԵՂԾԻՐ, ԱՇԽԱՏԻՐ<br/><h3>ՄԻ ԼՔԻՐ ՔՈ ԲՆՕՐՐԱՆԸ</h3></p>
             </div>
-            {/* ABOUT PAGE */}
             <AboutPage />
-            {/* COURSES PAGE */}
             <CoursesPage />
-            {/* NEWS PAGE */}
             <NewsPage />
         </div>
     )

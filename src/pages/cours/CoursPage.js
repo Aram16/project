@@ -1,5 +1,4 @@
 import React from 'react';
-import CourseCard from '../../components/cours/coursCard';
 import Footer from '../../components/footer';
 import Navbar from '../../components/navbar';
 import { Link } from "react-router-dom";
