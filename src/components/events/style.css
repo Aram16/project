@@ -1,3 +1,13 @@
+@media (min-width:600px) {
+    .cards-min{
+        display: none;
+    }
+}
+@media (max-width:600px) {
+        .cardsmin {
+            padding-left: 15%;
+    }
+}
 /* .news {
   width: 100%;
   height: 100vh;
@@ -8,25 +18,25 @@
         justify-content: space-around;
     }
 }
-.root-news {
-    padding: 10px;
+.root-cardsmin {
+    padding: 15px;
     border-style: inset;
     border-radius: 11px;
     margin: 20px;
     width: 60%;
     height: auto;
-    /* margin-left: 19%; */
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 @media (min-width: 500px) {
-  .root-news{
+  .root-cardsmin{
     margin-left: 19%;
   }
 }
 @media (max-width: 500px) {
-    .root-news{
+    .root-cardsmin{
         width: auto;
         height: auto;
     }

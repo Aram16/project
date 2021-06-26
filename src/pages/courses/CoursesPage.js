@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.css'
 import CoursesNavbar from './welcomeNavbar/welcomNavbar';
 
+
 const CoursesPage = () => {
     return(
         <div id="courses">
@@ -16,6 +17,7 @@ const CoursesPage = () => {
                             ENGINNER LABORATORY
                         </h3>
                     </Link>
+                    {/* <CourseCard laboratory/> */}
                 </div>
                 <div>
                     <Link to="/chessLaboratory" className="Link">

@@ -1,49 +1,14 @@
-import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import image from '../../assets/logo/Image.png'
 import activity from '../../assets/logo/Activity.png'
-// Import Swiper styles
-import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css"
-import "swiper/components/navigation/navigation.min.css"
-
-import "./index.css";
+import "./style.css";
 
 
-// import Swiper core and required modules
-import SwiperCore, {
-  Pagination,Navigation
-} from 'swiper/core';
-import Cardsmin from "./cardsmin";
-
-// install Swiper modules
-SwiperCore.use([Pagination,Navigation]);
-
-
-export default function EventCard() {
+export default function Cardsmin() {
   
   return (
     <>
-        <div className="cards-min">
-            <Cardsmin />
-            {/* <h1>ajksakjshaksja</h1> */}
-        </div>
-        <div className="cards-none">
-        <Swiper
-            slidesPerView={3} 
-            spaceBetween={30} 
-            slidesPerGroup={3} 
-            loop={true} 
-            loopFillGroupWithBlank={true} 
-            pagination={{
-                "clickable": true
-            }} 
-            navigation={true} 
-            className="mySwiper"
-        >
             <div className="root">
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -56,9 +21,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -71,9 +34,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -86,9 +47,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -101,9 +60,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -116,9 +73,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                        <div className="root-news">
+                        <div className="root-cardsmin">
                             <div className="text-h2">
                                 <img src={image} className="img" alt="news-image"/>
                                 <h2 className="text-h2">News Event</h2>
@@ -131,12 +86,7 @@ export default function EventCard() {
                                         at malesuada. Suspendisse potenti.</span>
                             </div>
                         </div>
-                </SwiperSlide>
             </div>
-            
-            
-        </Swiper>
-        </div>
     </>
   )
 }

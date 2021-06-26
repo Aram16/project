@@ -11,7 +11,6 @@ import NewsPage from '../news/newsPage';
 
 
 const WelcomePage = () => {
-
     return (
         <div id="div">
             <nav>

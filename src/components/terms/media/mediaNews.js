@@ -55,7 +55,6 @@ const MediaNews = ({laboratorymedia}) => {
                          </div>
                      </div>
              </div> 
-            {/* <Footer /> */}
         </div>
     );
 };

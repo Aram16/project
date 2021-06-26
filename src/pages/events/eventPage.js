@@ -6,6 +6,7 @@ import image from '../../assets/logo/Image.png'
 import activity from '../../assets/logo/Activity.png'
 import './index.css';
 import Footer from '../../components/footer';
+// import EventCard from '../../components/events/cards'
 import EventCard from '../../components/events/cards'
 
 const eventNews = [
@@ -58,18 +59,8 @@ const EventsPage = () => {
                 eventsText={eventsText} 
             />
             <p className="related-news">RELATED NEWS</p>
-            <div className="root">
-                {eventNews.map((item) => {
-                    return (
-                        <EventCard
-                            src={item.src}
-                            type={item.type}
-                            time={item.time}
-                            title={item.title}
-                            text={item.text}
-                        />
-                    );
-                })}
+            <div>
+                <EventCard />
             </div>
             <Footer />
         </div>

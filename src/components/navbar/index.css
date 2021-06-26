@@ -6,7 +6,9 @@ nav {
   width: 100%;
   position: relative;
 }
-
+.navv {
+  z-index: 10;
+}
 
 .navv > .nav-header {
   display: inline;

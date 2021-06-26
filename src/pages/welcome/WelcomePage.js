@@ -51,8 +51,11 @@ const WelcomePage = () => {
             <div className="work">
                 <p>ՄՏԱԾԻՐ, ՍՏԵՂԾԻՐ, ԱՇԽԱՏԻՐ<br/><h3>ՄԻ ԼՔԻՐ ՔՈ ԲՆՕՐՐԱՆԸ</h3></p>
             </div>
+            {/* ABOUT US PAGE */}
             <AboutPage />
+            {/* COURSES PAGE */}
             <CoursesPage />
+            {/* NEWS PAGE */}
             <NewsPage />
         </div>
     )
