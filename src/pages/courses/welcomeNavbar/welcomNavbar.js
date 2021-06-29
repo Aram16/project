@@ -26,9 +26,9 @@ const CoursesNavbar = () => {
                 <div className="navigation">
                         <a href="#about">About</a>
                         <a href="#news">News</a>
-                        <Link to="/events" className="Link"><a href="">Events</a></Link>
+                        <Link to="/events" className="Link">Events</Link>
                         <a href="#courses">Courses</a>
-                        <Link to="/contact" className="Link"><a href="">Contact</a></Link>
+                        <Link to="/contact" className="Link" >Contact</Link>
                 </div>
             </div>
         </nav>

@@ -1,13 +1,20 @@
 import Footer from "../../../components/footer"
 import Navbar from "../../../components/navbar"
-import ChessNews from '../../../components/terms/chess/chessNews'
+// import ChessNews from '../../../components/terms/chess/chessNews'
+import MediaNews from "../../../components/terms/media/mediaNews";
+
 import { laboratory } from "../../../constants/laboratory";
 
 const ChessPage = () => {
     return (
         <div>
             <Navbar />
-            <ChessNews laboratoryText={laboratory}/>
+            <MediaNews
+                name="CHESS LABORATORY"
+                laboratoryText={laboratory}
+                teachers={ ['Chess teacher', 'Chess teacher'] }
+                description={ ['Chess teacher' , 'Chess teacher'] } 
+            />
             <Footer />
         </div>
     );

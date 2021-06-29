@@ -8,9 +8,13 @@ const MediaPage = () => {
     return (
         <div>
             <Navbar />
-            <MediaNews laboratorymedia={laboratoryMedia}/>
-            <Footer />
-            
+            <MediaNews
+                name="MEDIA LABORATORY" 
+                laboratorymedia={laboratoryMedia}
+                teachers={['Lia', 'Martinez']}
+                description={['Full Stack Developer', 'WEB DEVELOPER']}
+            />
+            <Footer />    
         </div>
     );
 };

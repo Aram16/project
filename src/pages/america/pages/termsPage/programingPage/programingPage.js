@@ -1,14 +1,18 @@
 import Footer from "../../../components/footer"
 import Navbar from "../../../components/navbar"
-import ProgrammingNews from "../../../components/terms/programming/proogramming";
+import MediaNews from '../../../../america/components/terms/media/mediaNews'
 import { laboratoryProgramming } from "../../../constants/laboratory";
 
 const ProgrammingPage = () => {
     return (
         <div>
             <Navbar />
-            <ProgrammingNews laboratoryprogram={laboratoryProgramming}/>
-            <Footer />
+            <MediaNews
+                name="CHESS LABORATORY"
+                laboratoryText={laboratoryProgramming}
+                teachers={ ['Chess teacher', 'Chess teacher'] }
+                description={ ['Chess teacher' , 'Chess teacher'] } 
+            />            <Footer />
             
         </div>
     );

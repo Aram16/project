@@ -2,7 +2,6 @@ import ReactDom from 'react-dom';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import ContactsPage from './pages/contacts/ContactsPage';
 import AllNewsPage from './pages/allnews/AllnewsPage';
-import LaboratoryPage from './pages/laboratory/laboratoryPage';
 import WelcomePage from './pages/welcome/WelcomePage';
 import AboutUsPage from './pages/aboutUs/aboutUsPage';
 import EventsPage from './pages/events/eventPage';

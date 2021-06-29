@@ -34,11 +34,11 @@ const WelcomePage = () => {
                 <div className="navigation">
                         <a href="#about">About</a>
                         <a href="#news">News</a>
-                        <Link to="/events" className="Link"><a href="">Events</a></Link>
+                        <Link to="/events" className="Link">Events</Link>
                         <a href="#courses">Courses</a>
-                        <Link to="/contact" className="Link"><a href="">Contact</a></Link>
-                        <Link to={'/am'}><a href=""><img className="droosh" src={armenia} /></a></Link>
-                        <Link to={'/en'}><a href=""><img className="droosh" src={america} /></a></Link>
+                        <Link to="/contact" className="Link">Contact</Link>
+                        <Link to={'/am'}><img className="droosh" src={armenia} /></Link>
+                        <Link to={'/en'}><img className="droosh" src={america} /></Link>
                 </div>
             </div>
         </nav>

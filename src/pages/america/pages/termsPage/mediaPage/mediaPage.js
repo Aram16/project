@@ -5,9 +5,12 @@ const MediaPage = () => {
     return (
         <div>
             <Navbar />
-            <MediaNews laboratorymedia={laboratoryMedia}/>
-            {/* <Navbar /> */}
-            {/* <ChessNews laboratoryText={laboratory}/> */}
+            <MediaNews
+                name="CHESS LABORATORY"
+                laboratoryText={laboratoryMedia}
+                teachers={ ['Chess teacher', 'Chess teacher'] }
+                description={ ['Chess teacher' , 'Chess teacher'] } 
+            />
             {/* <Footer /> */}
         </div>
     );

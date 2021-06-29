@@ -1,15 +1,15 @@
 import React from 'react';
 import girl from '../../../assets/logo/girl.png'
-import '../chess/index.css';
+import './index.css';
 
 
-const MediaNews = ({laboratorymedia}) => {
+const MediaNews = ({ laboratorymedia, name, teachers, description }) => {
     return (
         <div>
              <div  className="enginner-div">
                     <div>
                         <h3 className="chess-h3">
-                            MEDIA LABORATORY
+                            {name}
                         </h3>
                         <p className="chess-p">
                             {laboratorymedia}
@@ -38,7 +38,7 @@ const MediaNews = ({laboratorymedia}) => {
                                 <img src={girl}  />
                             </div>
                             <div className="lorem">
-                                <p className="p"><b>LIA MORTINEZ</b><br />ADOBE PHOTOSHOP, ADOBE ILLUSTRATOR</p>
+                                <p className="p"><b>{teachers[0]}</b><br />{description[0]}</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, eligendi voluptatum laborum distinctio laboriosam assumenda aspernatur facilis mollitia quos similique, porro cum esse unde quasi quaerat, laudantium amet soluta.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, eligendi voluptatum laborum distinctio laboriosam assumenda aspernatur facilis mollitia quos similique, porro cum esse unde quasi quaerat, laudantium amet soluta.</p>
                             </div>
@@ -48,7 +48,7 @@ const MediaNews = ({laboratorymedia}) => {
                                  <img src={girl}  />
                              </div>
                              <div className="lorem">
-                                 <p className="p"><b>LIA MORTINEZ</b><br />ADOBE PHOTOSHOP, ADOBE ILLUSTRATOR</p>
+                                 <p className="p"><b>{teachers[1]}</b><br />{description[1]}</p>
                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, eligendi voluptatum laborum distinctio laboriosam assumenda aspernatur facilis mollitia quos similique, porro cum esse unde quasi quaerat, laudantium amet soluta.
                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum, eligendi voluptatum laborum distinctio laboriosam assumenda aspernatur facilis mollitia quos similique, porro cum esse unde quasi quaerat, laudantium amet soluta.</p>
                              </div>
