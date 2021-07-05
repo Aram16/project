@@ -11,7 +11,7 @@ const EnginnerPage = () => {
             {/* <EnginnerNews laboratoryenginner={laboratoryEnginner}/> */}
             <MediaNews
                 name="ENGINNER LABORATORY" 
-                laboratorymedia={laboratoryEnginner}
+                laboratoryenginner={laboratoryEnginner}
                 teachers={['Lia', 'Martinez']}
                 description={['Full Stack Developer', 'WEB DEVELOPER']}
             />

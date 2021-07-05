@@ -11,7 +11,7 @@ const ChessPage = () => {
             <Navbar />
             <MediaNews
                 name="CHESS LABORATORY"
-                laboratoryText={laboratory}
+                laboratorychess={laboratory}
                 teachers={ ['Chess teacher', 'Chess teacher'] }
                 description={ ['Chess teacher' , 'Chess teacher'] } 
             />

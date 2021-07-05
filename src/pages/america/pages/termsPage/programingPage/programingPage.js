@@ -9,7 +9,7 @@ const ProgrammingPage = () => {
             <Navbar />
             <MediaNews
                 name="CHESS LABORATORY"
-                laboratoryText={laboratoryProgramming}
+                laboratoryProgramming={laboratoryProgramming}
                 teachers={ ['Chess teacher', 'Chess teacher'] }
                 description={ ['Chess teacher' , 'Chess teacher'] } 
             />            <Footer />

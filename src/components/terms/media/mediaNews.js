@@ -3,7 +3,7 @@ import girl from '../../../assets/logo/girl.png'
 import './index.css';
 
 
-const MediaNews = ({ laboratorymedia, name, teachers, description }) => {
+const MediaNews = ({ laboratorymedia, laboratoryenginner, laboratoryprogram, laboratorychess, name, teachers, description }) => {
     return (
         <div>
              <div  className="enginner-div">
@@ -13,6 +13,9 @@ const MediaNews = ({ laboratorymedia, name, teachers, description }) => {
                         </h3>
                         <p className="chess-p">
                             {laboratorymedia}
+                            {laboratorychess}
+                            {laboratoryenginner}
+                            {laboratoryprogram}
                         </p>
                         <h4 className="h4">CONDITIONS:</h4>
                         <div className="eng">
