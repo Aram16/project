@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import AllNewsCard from '../../components/allnews/allnewsCard';
 import Footer from '../../components/footer';
 import image from '../../assets/logo/Image.png'
 import activity from '../../assets/logo/Activity.png'
+import { useTranslation } from "react-i18next";
 import './index.css';
 import Navbar from '../../components/navbar';
 
@@ -130,11 +131,18 @@ const news3 = [
     },
 ]
 const AllNewsPage = () => {
+    const { t, i18n } = useTranslation();
+    const onClick = (name) => {
+        console.log(name);
+        i18n.changeLanguage(name);
+    };
+
     return (
+        <Suspense fallback="Loading...">
         <div>
             <Navbar />
-            <h1 className="news-h1">NEWS</h1>
-            <p className="news-inovation">Innovation Ethnic Regional Center</p>
+            <h1 className="news-h1">{t("News")}</h1>
+            <p className="news-inovation">{t("inovationCenter")}</p>
             <div className="root">
                 {news.map((item) => {
                     return (
@@ -176,6 +184,7 @@ const AllNewsPage = () => {
             </div>
             <Footer />
         </div>
+        </Suspense>
     );
 };
 

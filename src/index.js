@@ -6,12 +6,11 @@ import WelcomePage from './pages/welcome/WelcomePage';
 import AboutUsPage from './pages/aboutUs/aboutUsPage';
 import EventsPage from './pages/events/eventPage';
 import CoursPage from './pages/cours/CoursPage'
-import Armenia from './pages/armenia/index'
-import America from './pages/america/index'
 import ChessPage from './pages/termsPage/chessPage/chessPage';
 import MediaPage from './pages/termsPage/mediaPage/mediaPage';
 import ProgrammingPage from './pages/termsPage/programingPage/programingPage';
 import EnginnerPage from './pages/termsPage/enginnerPage/enginnerPage';
+import i18n from './i18n'
 import './index.css';
 
 
@@ -29,8 +28,6 @@ const App = () => {
                 <Route exact path="/mediaLaboratory" component={MediaPage} />/
                 <Route exact path="/programmingLaboratory" component={ProgrammingPage} />
                 <Route exact path="/enginnerLaboratory" component={EnginnerPage} />
-                <Route exact path="/am" component={Armenia} />
-                <Route exact path="/en" component={America} />
             </div>
         </BrowserRouter>
     );

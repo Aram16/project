@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import AllNewsCard from '../../components/allnews/allnewsCard';
 import Footer from '../../components/footer';
 import image from '../../assets/logo/Image.png'
 import activity from '../../assets/logo/Activity.png'
 import './newsPage.css';
 import NewsNavbar from './welcomeNavbar/welcomNavbar';
+import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 
 const news = [
@@ -50,30 +51,38 @@ const news = [
 ];
     
 const NewsPage = () => {
+    const { t, i18n } = useTranslation();
+    const onClick = (name) => {
+        console.log(name);
+        i18n.changeLanguage(name);
+    };
+
     return (
-        <div id="news">
-            <NewsNavbar />
-            <h1 className="news-h1">NEWS</h1>
-            <div className="root">
-                {news.map((item) => {
-                    return (
-                        <AllNewsCard
-                            src={item.src}
-                            type={item.type}
-                            time={item.time}
-                            title={item.title}
-                            text={item.text}
-                        />
-                    );
-                })}
+        <Suspense fallback="Loading...">
+            <div id="news">
+                <NewsNavbar />
+                <h1 className="news-h1">{t("News")}</h1>
+                <div className="root">
+                    {news.map((item) => {
+                        return (
+                            <AllNewsCard
+                                src={item.src}
+                                type={item.type}
+                                time={item.time}
+                                title={item.title}
+                                text={item.text}
+                            />
+                        );
+                    })}
+                </div>
+                <div className="all-news">
+                    <Link to="/allNews">
+                        <a href="" >{t("allnews")}</a>
+                    </Link>
+                </div>
+                <Footer />
             </div>
-            <div className="all-news">
-                <Link to="/allNews">
-                    <a href="" >All news & events</a>
-                </Link>
-            </div>
-            <Footer />
-        </div>
+        </Suspense>
     );
 };
 

@@ -26,7 +26,6 @@ export default function EventCard() {
     <>
         <div className="cards-min">
             <Cardsmin />
-            {/* <h1>ajksakjshaksja</h1> */}
         </div>
         <div className="cards-none">
         <Swiper

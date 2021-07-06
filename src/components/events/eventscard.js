@@ -1,5 +1,6 @@
 import time from '../../assets/logo/Time.png'
 import activity from '../../assets/logo/Activity.png'
+import { useTranslation } from "react-i18next";
 import Image from './image'
 
 const NewsEvents = ({eventsText}) => {

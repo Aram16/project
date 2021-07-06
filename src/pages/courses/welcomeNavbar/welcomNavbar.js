@@ -1,37 +1,55 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo/ket.png'
+import armenia from "../../../assets/logo/armenia.png";
+import america from "../../../assets/logo/america.png";
+import { useTranslation } from "react-i18next";
+
 import './index.css';
 
 const CoursesNavbar = () => {
+    const { t, i18n } = useTranslation();
+    const onClick = (name) => {
+        console.log(name);
+        i18n.changeLanguage(name);
+    };
+
     return (
-        <nav>
-            <div className="navv">
-                <input type="checkbox" id="nav-courses" />
-                <div className="nav-header">
-                    <div className="nav-title">
-                        <a href="#div">
-                            <img src={logo}/>
-                        </a>
+        <Suspense fallback="Loading...">
+            <nav>
+                <div className="navv">
+                    <input type="checkbox" id="nav-courses" />
+                    <div className="nav-header">
+                        <div className="nav-title">
+                            <a href="#div">
+                                <img src={logo}/>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="ereq-ket">
+                        <label for="nav-courses">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </label>
+                    </div>
+
+                    <div className="navigation">
+                            <a href="#about">{t("About")}</a>
+                            <a href="#news">{t("News")}</a>
+                            <Link to="/events" className="Link">{t("Events")}</Link>
+                            <a href="#courses">{t("Courses")}</a>
+                            <Link to="/contact" className="Link" >{t("Contact")}</Link>
+                            <div onClick={() => onClick("hy")} className="navigation-div">
+                                <img className="droosh" src={armenia} alt="armenia" />
+                            </div>
+                            <div onClick={() => onClick("en")} className="navigation-div">
+                                <img className="droosh" src={america} alt="english" />
+                            </div>
                     </div>
                 </div>
-                <div className="ereq-ket">
-                    <label for="nav-courses">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    </label>
-                </div>
-
-                <div className="navigation">
-                        <a href="#about">About</a>
-                        <a href="#news">News</a>
-                        <Link to="/events" className="Link">Events</Link>
-                        <a href="#courses">Courses</a>
-                        <Link to="/contact" className="Link" >Contact</Link>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </Suspense>
     );
 };
 
