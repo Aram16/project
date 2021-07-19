@@ -16,7 +16,7 @@ const MediaPage = () => {
     return (
         <Suspense fallback="Loading...">
             <div>
-                <Navbar />
+                <Navbar id="nav-checkk"/>
                 <MediaNews
                     name={t("media")} 
                     laboratorymedia={laboratoryMedia}

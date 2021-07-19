@@ -4,7 +4,7 @@ import Footer from '../../components/footer';
 import image from '../../assets/logo/Image.png'
 import activity from '../../assets/logo/Activity.png'
 import './newsPage.css';
-import NewsNavbar from './welcomeNavbar/welcomNavbar';
+import Navbar from '../../components/navbar';
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 
@@ -60,7 +60,8 @@ const NewsPage = () => {
     return (
         <Suspense fallback="Loading...">
             <div id="news">
-                <NewsNavbar />
+                <Navbar id="nav-news" />
+
                 <h1 className="news-h1">{t("News")}</h1>
                 <div className="root">
                     {news.map((item) => {

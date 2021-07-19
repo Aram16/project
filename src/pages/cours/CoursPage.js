@@ -15,7 +15,7 @@ const CoursPage = () => {
     return(
         <Suspense fallback="Loading...">
             <div className="courses">
-                <Navbar />
+                <Navbar id="nav-checkk" />
                 <h1>{t("Courses")}</h1>
                 <p>{t("learn")}</p>
                 <div className="cours">

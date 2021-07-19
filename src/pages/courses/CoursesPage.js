@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CoursesNavbar from './welcomeNavbar/welcomNavbar';
+import Navbar from '../../components/navbar';
 import { useTranslation } from "react-i18next";
 import './index.css'
 
@@ -14,7 +14,7 @@ const CoursesPage = () => {
 
     return(
         <div id="courses">
-            <CoursesNavbar />
+            <Navbar id="nav-courses" />
             <h1>{t("Courses")} </h1>
             <p>{t("learn")}</p>
             <div className="cours-div">

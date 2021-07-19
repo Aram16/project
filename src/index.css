@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width: 600px) {
+  .navv > #nav-checkk:not(:checked) ~ .navigation {
+    height: 0px;
+  }
+  .navv > #nav-checkk:checked ~ .navigation {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .navv > #nav-courses:not(:checked) ~ .navigation {
+    height: 0px;
+  }
+  .navv > #nav-courses:checked ~ .navigation {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .navv > #nav-news:not(:checked) ~ .navigation {
+    height: 0px;
+  }
+  .navv > #nav-news:checked ~ .navigation {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .navv > #nav-about:not(:checked) ~ .navigation {
+    height: 0px;
+  }
+  .navv > #nav-about:checked ~ .navigation {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}

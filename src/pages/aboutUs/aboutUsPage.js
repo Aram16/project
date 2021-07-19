@@ -18,7 +18,7 @@ const AboutUsPage = () => {
         <Suspense fallback="Loading...">
 
             <div className="about">
-                <Navbar />
+                <Navbar id="nav-checkk" />
                 <h1 className="about-h1">{t("About")}</h1>
                 <TextField
                     fullText={fullText} 

@@ -16,7 +16,7 @@ const ContactsPage = () => {
 
     return (
         <div className="contacts">
-            <Navbar />
+            <Navbar id="nav-checkk" />
             <h1>{t("contactUs")}</h1>
             <MessageForm />
             <div className="contact-address">

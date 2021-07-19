@@ -16,7 +16,7 @@ const ProgrammingPage = () => {
     return (
         <Suspense fallback="Loading...">
         <div>
-            <Navbar />
+            <Navbar id="nav-checkk"/>
             <MediaNews
                 laboratoryprogram={laboratoryProgramming}
                 name={t("programming")} 

@@ -140,7 +140,7 @@ const AllNewsPage = () => {
     return (
         <Suspense fallback="Loading...">
         <div>
-            <Navbar />
+            <Navbar id="nav-checkk" />
             <h1 className="news-h1">{t("News")}</h1>
             <p className="news-inovation">{t("inovationCenter")}</p>
             <div className="root">

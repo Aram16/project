@@ -15,7 +15,7 @@ const EnginnerPage = () => {
     return (
         <Suspense fallback="Loading...">
             <div>
-                <Navbar />
+                <Navbar id="nav-checkk"/>
                 <MediaNews
                     name={t("enginner")} 
                     laboratoryenginner={laboratoryEnginner}
