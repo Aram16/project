@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.1f6ed0ba.chunk.css",
+    "main.js": "/project/static/js/main.edab5b59.chunk.js",
+    "main.js.map": "/project/static/js/main.edab5b59.chunk.js.map",
+    "runtime-main.js": "/project/static/js/runtime-main.a7cba537.js",
+    "runtime-main.js.map": "/project/static/js/runtime-main.a7cba537.js.map",
+    "static/css/2.e7cc04cc.chunk.css": "/project/static/css/2.e7cc04cc.chunk.css",
+    "static/js/2.b56a1d7e.chunk.js": "/project/static/js/2.b56a1d7e.chunk.js",
+    "static/js/2.b56a1d7e.chunk.js.map": "/project/static/js/2.b56a1d7e.chunk.js.map",
+    "index.html": "/project/index.html",
+    "static/css/2.e7cc04cc.chunk.css.map": "/project/static/css/2.e7cc04cc.chunk.css.map",
+    "static/css/main.1f6ed0ba.chunk.css.map": "/project/static/css/main.1f6ed0ba.chunk.css.map",
+    "static/js/2.b56a1d7e.chunk.js.LICENSE.txt": "/project/static/js/2.b56a1d7e.chunk.js.LICENSE.txt",
+    "static/media/Image.de968786.png": "/project/static/media/Image.de968786.png",
+    "static/media/girl.7099ca46.png": "/project/static/media/girl.7099ca46.png",
+    "static/media/logop.d862a49e.png": "/project/static/media/logop.d862a49e.png",
+    "static/media/rectangle-12.93e6c141.png": "/project/static/media/rectangle-12.93e6c141.png",
+    "static/media/rectangle-13.d7cb0777.png": "/project/static/media/rectangle-13.d7cb0777.png",
+    "static/media/rectangle-14.65f378ca.png": "/project/static/media/rectangle-14.65f378ca.png",
+    "static/media/rectangle-15.c388f3f0.png": "/project/static/media/rectangle-15.c388f3f0.png",
+    "static/media/rectangle-16.812963a7.png": "/project/static/media/rectangle-16.812963a7.png",
+    "static/media/rectangle-17.71d54d4b.png": "/project/static/media/rectangle-17.71d54d4b.png",
+    "static/media/rectangle-18.34e414b0.png": "/project/static/media/rectangle-18.34e414b0.png",
+    "static/media/rectangle-19.41410d43.png": "/project/static/media/rectangle-19.41410d43.png",
+    "static/media/rectangle-20.d8cbbe8e.png": "/project/static/media/rectangle-20.d8cbbe8e.png",
+    "static/media/rectangle-5.aa7f7fbf.png": "/project/static/media/rectangle-5.aa7f7fbf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7cba537.js",
+    "static/css/2.e7cc04cc.chunk.css",
+    "static/js/2.b56a1d7e.chunk.js",
+    "static/css/main.1f6ed0ba.chunk.css",
+    "static/js/main.edab5b59.chunk.js"
+  ]
+}
