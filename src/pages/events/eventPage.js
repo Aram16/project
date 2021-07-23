@@ -61,7 +61,7 @@ const EventsPage = () => {
     return (
         <Suspense fallback="Loading...">
             <div className="div-events">
-                <Navbar id="nav-checkk" />
+                <Navbar id="nav-bar" />
                 <NewsEvents
                     eventsText={eventsText} 
                 />

@@ -40,7 +40,7 @@ const WelcomePage = () => {
 
             <div className="navigation">
               <a href="#about">{t("About")}</a>
-              <a href="#news">{t("News")}</a>
+              <a href="#news-welcome">{t("News")}</a>
               <Link to="/events" className="Link">
               {t("Events")}
               </Link>

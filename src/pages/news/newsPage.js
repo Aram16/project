@@ -59,7 +59,7 @@ const NewsPage = () => {
 
     return (
         <Suspense fallback="Loading...">
-            <div id="news">
+            <div id="news-welcome">
                 <Navbar id="nav-news" />
 
                 <h1 className="news-h1">{t("News")}</h1>

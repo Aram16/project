@@ -40,4 +40,11 @@ code {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+  .navv > #nav-bar:not(:checked) ~ .navigation {
+    height: 0px;
+  }
+  .navv > #nav-bar:checked ~ .navigation {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
 }
